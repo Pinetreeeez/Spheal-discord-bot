@@ -1,0 +1,21 @@
+# *.log        # ignora todos os arquivos .log
+#logs/        # ignora a pasta logs inteira
+#/.env        # ignora só o .env da raiz
+#!.env.example  # mas este arquivo pode ir pro Git
+
+
+# Segredos
+.env
+.env.*
+
+# Dependências
+node_modules/
+
+# Logs (o log de auditoria pode ter IDs de usuários e comandos)
+*.log
+logs/
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
